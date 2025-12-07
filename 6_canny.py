@@ -43,6 +43,6 @@ while True:
     cv2.putText(resultImg, txt, (10, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (200, 0, 0), 1, cv2.LINE_AA)
 
     cv2.imshow(win_name,  resultImg)
-    time.sleep(0.2)
+    # time.sleep(0.2)
 
 cv2.destroyAllWindows()
